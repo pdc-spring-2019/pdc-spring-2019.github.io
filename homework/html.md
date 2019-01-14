@@ -24,7 +24,7 @@ On Github Pages, inside your ```<body>``` tag, update your site with each of the
 
 ### Customize Elements 
 
-1. Add a ```class="content"``` attribute and value pair to your ```div``` element
+1. Add a ```class="content"``` attribute and value pair to your ```<div>``` element
 2. Add a ```target="_blank"``` attribute and value pair to your link element
 3. Inside your ```<p>``` tag, wrap one word of text in ```<em></em>``` tags and view the result
 4. Inside your ```<p>``` tag, wrap a different word of text in ```<strong></strong>``` tags and view the result
@@ -43,12 +43,12 @@ On Github Pages, inside your ```<body>``` tag, update your site with each of the
 <li>List item 4</li>
 </ul>
 ```
-6. At the bottom of your page but still inside your ```<body>``` element, create a new ```<div>``` with a ```class="corrections``` attribute and value pair.
+6. At the bottom of your page but still inside your ```<body>``` element, create a new ```<div>``` with a ```class="corrections"``` attribute and value pair.
 
 
 ### Correct Some Mistakes
 
-In the ```<div>``` with a ```class="corrections``` attribute and value pair that you created above, insert corrected versions of the following HTML snippets. Each has one and only one mistake. Look carefully!
+In the ```<div>``` with a ```class="corrections"``` attribute and value pair that you created above, insert corrected versions of the following HTML snippets. Each has one and only one mistake. Look carefully!
 
 1. List
 ```
