@@ -69,7 +69,7 @@ In the ```<div>``` with a ```class="corrections"``` attribute and value pair tha
 ```
 4. ```<p>``` inside ```<div>```
 ```
-<div><p>This is a paragraph.</p></div>
+<div><p>This is a paragraph.</div></p>
 ```
 5. ```<h4>``` with attribute and value pair
 ```
