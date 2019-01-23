@@ -9,8 +9,8 @@
       th {color: white; background-color: black; padding-top: 7px; padding-bottom: 7px;}
       td {padding: 3px; }
       table { width: 100%; border-collapse: collapse;}
-      td, th {border: 1px solid black; font-size: 95%; text-align: center;
-      }
+      td, th {border: 1px solid black; font-size: 95%; text-align: center; }
+      code { background-color: white; padding: 2px; }
       body {
         font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
         color: rgba(34,34,34,.77);
@@ -47,6 +47,10 @@
       .youtube {
         width: 100%;
         height: 45vh;
+      }
+      .meme {
+        height: 35vh;
+        width: auto;
       }
       .middle {
         background-color: #ffe6cc;
@@ -89,13 +93,13 @@ class: middle
 
 <hr>
 
-#### 1. What is CSS? 
+### 1. What is CSS? 
 
-#### 2. CSS Syntax
+### 2. CSS Syntax
 
-#### 3. CSS Selectors
+### 3. CSS Selectors
 
-#### 4. Commonly Used Style Rules
+### 4. Commonly Used Style Rules
 
 ---
 class: middle
@@ -103,10 +107,10 @@ class: middle
 # What is CSS?
 
 <hr>
-<img src="images/philosoraptor.jpg">
+<img class="meme" src="images/philosoraptor.jpg">
 <hr>
 
-### Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document. Stylesheets separate presentation/display and from content, which makes your HTML file easier to read, among other things. 
+#### Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document. Stylesheets separate presentation/display and from content, which makes your HTML file easier to read, among other things. 
 
 ---
 class: middle
@@ -115,27 +119,27 @@ class: middle
 
 <hr>
 
-### CSS rules look like this: ```p { color: blue; }```
+- #### CSS rules look like this: ```p { color: blue; }```
 
-### Multiple rules are separated by semicolons like ```div { color: white; background-color: blue; height: 50px; width: 100px; }```
+- #### Multiple rules are separated by semicolons like ```div { color: white; background-color: blue; height: 50px; width: 100px; }```
 
 
-### Try it on https://jsfiddle.net/ 
+- #### Try it on https://jsfiddle.net/ 
 
 ---
 class: middle 
 
-<hr>
-
 # CSS can be found in several places
 
-- ### CSS external eile 
+<hr>
 
-- ### CSS in a ```<style></style>``` tag
+- #### CSS external file 
 
-- ### CSS as the value of a ```style=``` attribute 
+- #### CSS in a style tag
 
-See https://www.w3schools.com/css/css_howto.asp
+- #### CSS as the value of a style attribute 
+
+- #### See https://www.w3schools.com/css/css_howto.asp
 
 ---
 class: middle 
@@ -143,10 +147,10 @@ class: middle
 # CSS Selectors
 
 <hr>
-- #### CSS rules apply to any 'selected' element
-- #### ```p { color: blue; }``` would apply to all paragraphs
-- #### selecting by class uses a period ```.first { color: blue; }```
-- #### selecting by id uses a # sign ```#author { color: blue; }```
+- #### CSS rules apply to any selected element
+- #### <code>p { color: blue; }</code> would apply to all paragraphs
+- #### selecting by class uses a period <code>.first { color: blue; }</code>
+- #### selecting by id uses a # sign <code>#author { color: blue; }</code>
 - #### You can combine selectors (more on this later)
 
 ---
@@ -156,11 +160,11 @@ class: middle
 
 <hr>
 
-- ### Text Attributes
-- ### Shapes and Sizes, Layout
-- ### Background Colors and Images
-- ### What to Do with Different Screen Sizes
-- ### See https://www.w3schools.com/css/default.asp
+- #### Text Attributes
+- #### Shapes and Sizes, Layout
+- #### Background Colors and Images
+- #### What to Do with Different Screen Sizes
+- #### See https://www.w3schools.com/css/default.asp
 
 </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
