@@ -28,7 +28,7 @@ Note: adding the bootstrap library to your ```index.html``` file may make some o
 
 ### Trying some bootstrap rules
 
-1. Add the following code to your ```index.html``` file:
+1. Add the following code to your ```index.html``` file (copy and paste is allowed):
 
 ```
 <div class="alert alert-primary" role="alert">
@@ -36,7 +36,7 @@ Note: adding the bootstrap library to your ```index.html``` file may make some o
 </div>
 ```
 
-2. Add the following code to your ```index.html``` file:
+2. Add the following code to your ```index.html``` file (copy and paste is allowed):
 
 ```
 <div class="list-group">
@@ -54,7 +54,7 @@ Note: adding the bootstrap library to your ```index.html``` file may make some o
 </div>
 ```
 
-3. Add the following code to your ```index.html``` file:
+3. Add the following code to your ```index.html``` file (copy and paste is allowed):
 
 ```
 <p>
