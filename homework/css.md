@@ -20,7 +20,7 @@ This homework assignment is designed to mimic the html assignment in that you wi
 1. Download the bootstrap4 library from https://getbootstrap.com/docs/4.0/getting-started/download/
 2. Unzip the files
 3. Upload the contents of the CSS folder to the folder on your Github Pages site called CSS. Do not delete your ```style.css`` file from Part I of this homework.
-4. Upload the FS folder to your Github Pages site 
+4. Upload the JS folder to your Github Pages site 
 5. Connect your ```index.html``` file to the ```bootstrap.min.css``` file by adding a ```<link>``` tag inside your ```index.html``` file's ```<head></head>``` element, just above your ```<link>``` tag for the ```style.css``` file. 
 As with the ```style.css``` file, you should use a relative path to the bootstrap file when entering a value for the ```rel``` attribute. 
 
